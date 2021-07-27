@@ -1,28 +1,17 @@
-@@ -0,0 +1,51 @@
-
 package importarcsv;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-
-
-
 import java.util.Scanner;
-
 /*
  * @author Daniel
  */
 public class ImportarCSV {
-    
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
            
-      
       File file = new File("C:\\Users\\daniel\\Desktop\\dataset.CSV");
       
       try{
